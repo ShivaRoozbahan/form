@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>
+          <h1>User info</h1>
+        </legend>
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" autofocus required " />
+        <br /><br />
+
+        <label for="user">User name: </label>
+        <input type="text" id="user" required />
+        <br /><br />
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" />
+        <br /><br />
+
+        <label for="pass">password: </label>
+        <input
+          type="password"
+          id="pass"
+          maxlength="10"
+          placeholder="1h@Q"
+          required
+        />
+
+        <fieldset>
+          <legend>
+            <h4>gender</h4>
+          </legend>
+
+          <input type="radio" id="man" name="gender" checked />
+          <label for="man"> man </label>
+          <br />
+
+          <input type="radio" id="woman" name="gender" />
+          <label for="woman"> woman </label>
+        </fieldset>
+      </fieldset>
+      <br />
+
+      <input type="checkbox" id="agree" checked />
+      <label for="agree"
+        ><b>i agree with the <a href="#">rules</a> of the Site.</b></label
+      >
+      <br /><br />
+
+      <input type="submit" value="send" />
+    </form>
+  </body>
+</html>
